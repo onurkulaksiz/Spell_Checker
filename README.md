@@ -11,5 +11,11 @@ It provides users with the most convenient option by using multiple libraries.
 ## Install
 ```python
 pip install contextualSpellCheck
-}
+```
+## Usage
+```python
+import spacy
+import contextualSpellCheck
+nlp = spacy.load('en_core_web_sm')
+contextualSpellCheck.add_to_pipe(nlp)
 ```
