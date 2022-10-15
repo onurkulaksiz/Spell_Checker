@@ -33,7 +33,9 @@ spell_check = doc.correct()
 
 ```
 # pyspellchecker
+Checking of spelling is a basic requirement in any text processing or analysis. The python package pyspellchecker provides us this feature to find the words that may have been mis-spelled and also suggest the possible corrections.
 ## Install
+First, we need to install the required package using the following command in our python environment.
 ```python
 pip install pyspellchecker
 ```
