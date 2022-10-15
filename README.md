@@ -8,6 +8,7 @@ It provides users with the most convenient option by using multiple libraries.
 - textblob
 - pyspellchecker
 # spaCy
+spaCy is an open-source software library for advanced natural language processing, written in the programming languages Python and Cython
 This package currently focuses on Out of Vocabulary (OOV) word or non-word error (NWE) correction using BERT model. The idea of using BERT was to use the context when correcting NWE.
 ## Install
 ```python
