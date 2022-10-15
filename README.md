@@ -8,6 +8,7 @@ It provides users with the most convenient option by using multiple libraries.
 - textblob
 - pyspellchecker
 # spaCy
+This package currently focuses on Out of Vocabulary (OOV) word or non-word error (NWE) correction using BERT model. The idea of using BERT was to use the context when correcting NWE.
 ## Install
 ```python
 pip install contextualSpellCheck
