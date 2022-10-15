@@ -38,6 +38,8 @@ spell_check = doc.correct()
 pip install pyspellchecker
 ```
 ## Usage
+Finds words that may be misspelled. Displays the correct result and closest values. 
+Used for words. It is not used for a sentence.
 ```python
 from spellchecker import SpellChecker
 spell = SpellChecker()
