@@ -20,3 +20,7 @@ nlp = spacy.load('en_core_web_sm')
 contextualSpellCheck.add_to_pipe(nlp)
 
 ```
+# textblob
+## Usage
+# pyspellchecker
+## Usage
