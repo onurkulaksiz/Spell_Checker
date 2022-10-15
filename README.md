@@ -22,9 +22,22 @@ contextualSpellCheck.add_to_pipe(nlp)
 ```
 # textblob
 ## Usage
+```python
+from textblob import TextBlob
+doc = TextBlob(text)
+spell_check = doc.correct()
+
+```
 # pyspellchecker
 ## Install
 ```python
 pip install pyspellchecker
 ```
 ## Usage
+```python
+from spellchecker import SpellChecker
+spell = SpellChecker()
+x = input()
+misspelled = spell.unknown([x])
+
+```
