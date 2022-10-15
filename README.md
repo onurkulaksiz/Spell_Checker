@@ -19,16 +19,4 @@ import contextualSpellCheck
 nlp = spacy.load('en_core_web_sm')
 contextualSpellCheck.add_to_pipe(nlp)
 
-def correction (text):
-  doc = nlp(text)
-  if doc._.performed_spellCheck==True:
-    doc = nlp(text)
-    print(f"Original: {doc}")
-    print(f"True:{doc._.outcome_spellCheck}")
-  else:
-   print(f"True: {text}")
-
-print("Write something.")
-x = input()
-correction(x)
 ```
