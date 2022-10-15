@@ -23,4 +23,8 @@ contextualSpellCheck.add_to_pipe(nlp)
 # textblob
 ## Usage
 # pyspellchecker
+## Install
+```python
+pip install pyspellchecker
+```
 ## Usage
