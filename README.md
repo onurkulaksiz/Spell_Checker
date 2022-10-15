@@ -40,6 +40,7 @@ First, we need to install the required package using the following command in ou
 pip install pyspellchecker
 ```
 ## Usage
+Now we see below how the package is used to point out the wrongly spelled words as well as make some suggestions about possible correct words.
 Finds words that may be misspelled. Displays the correct result and closest values. 
 Used for words. It is not used for a sentence.
 ```python
