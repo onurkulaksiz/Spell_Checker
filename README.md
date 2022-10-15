@@ -9,3 +9,7 @@ It provides users with the most convenient option by using multiple libraries.
 - pyspellchecker
 # spaCy
 ## Install
+```python
+pip install contextualSpellCheck
+}
+```
