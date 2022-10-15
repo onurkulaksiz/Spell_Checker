@@ -7,3 +7,5 @@ It provides users with the most convenient option by using multiple libraries.
 - spaCy
 - textblob
 - pyspellchecker
+# spaCy
+## Install
